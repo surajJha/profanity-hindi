@@ -1,0 +1,25 @@
+{
+  "name": "profanity-hindi",
+  "version": "1.0.0",
+  "description": "Small Utility for checking profanity (hindi and English).It supports functionality like detecting bad words and cleaning them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajJha/profanity-hindi.git"
+  },
+  "keywords": [
+    "profanity-hindi",
+    "bad-words",
+    "hindi-bad-words",
+    "bad-words-filter"
+  ],
+  "author": "Suraj Kumar Jha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajJha/profanity-hindi/issues"
+  },
+  "homepage": "https://github.com/surajJha/profanity-hindi#readme"
+}

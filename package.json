@@ -1,6 +1,6 @@
 {
   "name": "profanity-hindi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small Utility for checking profanity (hindi and English).It supports functionality like detecting bad words and cleaning them.",
   "main": "index.js",
   "scripts": {

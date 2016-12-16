@@ -11,11 +11,12 @@ just run - npm install profanity-hindi
 It internally uses lodash , will be automatically installed
 
 ### Code Example
+~~~javascript
 var profanity = require("profanity-hindi");
 var message = "hi asshole you are a bitch chutiya";
 var cleaned = profanity.maskBadWords(message);
 console.log(cleaned); // hi ******* you are a ***** *******
-
+~~~
 ### Unit Tests
 Run command : npm test
 

@@ -4,7 +4,7 @@
   "description": "Small Utility for checking profanity (hindi and English).It supports functionality like detecting bad words and cleaning them.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "./node_modules/mocha/bin/mocha test/"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/surajJha/profanity-hindi/issues"
   },
-  "homepage": "https://github.com/surajJha/profanity-hindi#readme"
+  "homepage": "https://github.com/surajJha/profanity-hindi#readme",
+  "dependencies": {
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }

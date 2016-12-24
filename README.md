@@ -27,6 +27,7 @@ var message = "hi asshole you are a bitch chutiya";
 var isDirty = profanity.isMessageDirty(message);
 console.log(isDirty);
 // prints true
+
 var message = "hi there. How are you";
 var isDirty = profanity.isMessageDirty(message);
 console.log(isDirty);

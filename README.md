@@ -37,7 +37,8 @@ console.log(isDirty);
 function addWords()
 var profanity = require("profanity-hindi");
  var newWords = ["this", "dumbness"];
- profanity.addWords(newWords); // this will add the new words to the dictionary of bad words. This function optionally
+ profanity.addWords(newWords); // this will add the new words 
+ to the dictionary of bad words. This function optionally
  returns the entire dictionary of bad words.
 ~~~
 
@@ -45,7 +46,8 @@ var profanity = require("profanity-hindi");
 function removeWords()
 var profanity = require("profanity-hindi");
  var newWords = ["this", "dumbness"];
- profanity.removeWords(newWords); // this will remove the new words from the dictionary of bad words. This function optionally
+ profanity.removeWords(newWords); // this will remove the new words 
+ from the dictionary of bad words. This function optionally
  returns the entire dictionary of bad words.
 ~~~
 ### Unit Tests
